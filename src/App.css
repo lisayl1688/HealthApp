@@ -1,0 +1,304 @@
+
+
+/* nav und logo gibt es unten auch nochmal  */
+
+.Logo {
+    margin: 0 10%;
+    width: 20vw;
+    display: flex;
+    gap: 5%;
+    color: #FAFDF2;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    background-color: #1A3129;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+nav button {
+    background-color: #CBEA7B;
+    width: 10vw;
+    padding: 15px 0;
+    margin: 15px 15px ;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+
+.MenuOptions {
+    display: flex;
+    gap: 5%;
+}
+
+.menuPages {
+    display: flex;
+    align-items: center;
+    width: 35vw;
+    gap: 10%;
+    color: #FAFDF2;
+    padding: 0 20px;
+}
+
+.Herosection .top {
+    display: flex;
+}
+
+.Herosection .topRight {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 2%;
+}
+
+
+.Herosection .topRight h1 {
+    font-size: 48px;
+}
+
+.Herosection img {
+    width: 50vw;
+    height: 100%;
+}
+
+.Herosection .roundPictures {
+    position: relative;
+}
+
+.Herosection .roundPictures img {
+    width: 40px;
+    height: 40px;
+}
+
+.round2 {
+    position: absolute;
+    left: 4%;
+}
+.round3 {
+    position: absolute;
+    left: 8%;
+}
+
+.roundPictures p {
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+
+
+.heroWrappersRound{
+    display: flex;
+    flex-direction: column;
+}
+
+.HeroButtons {
+    display: flex;
+    gap: 5%;
+    margin: 5% 0;
+}
+
+.HeroButtons button:first-of-type {
+ background-color: #CBEA7B;
+ border-radius: 10px;
+ border: none;
+ width: 10vw;
+ height: 5vh;
+}
+
+.HeroButtons button:nth-of-type(2) {
+    background-color: #ebf4d8;
+    border: none;
+    border-radius: 10px;
+    width: 10vw;
+    height: 5vh;
+}
+
+.BlogIntro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10% 20%;
+    text-align: center;
+}
+
+.twoCards {
+    display: flex;
+    gap: 8%;
+    margin: 0 80px;
+}
+
+.card1 , .card2{
+    background-color: #ebf4d8;
+    border-radius: 20px;
+    width: 50vw;
+    height: 135vh;
+}
+.card1 span , .card2 span {
+display: flex;
+gap: 1%;
+align-items: center;
+background-color: #FAFDF2;
+border-radius: 20px;
+width: 36vw;
+margin-left: 7%;
+margin-top: 3%;
+}
+.card1 .drink, .card2 .strong{
+    width: 35vw;
+    margin: 7%;
+}
+
+.card1 .pinck , .card1 .grau{
+    width: 10%;
+    height: 10%;
+}
+
+.favorite {
+    display: flex;
+    padding-left: 50%;
+}
+
+.favorite p{
+    padding: 0 10px;
+}
+
+.description {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10%;
+}
+
+.CalorieCalculator div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 0 20%;
+    margin: 10% 0%;
+}
+
+.labels {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.bodyAge , .weightActivity{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-bottom: 30px;
+}
+
+.genderHeadline {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.genderRadio {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    
+}
+
+
+.calculateButton {
+    background-color: #CBEA7B;
+    border-radius: 10px;
+    border: none;
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 ;
+}
+
+.bottomWrapper {
+    background-color: #ebf4d8;
+    width: 90vw;
+    height: 100vh;
+    border-radius: 20px;
+    margin: 5%;
+    padding: 3% 0;
+}
+
+.tableWrapper {
+    background-color: #FAFDF2;
+    border: 1.5px solid #CBEA7B;
+    border-radius: 10px;
+    width: 50vw;
+    display: flex;
+    margin-left: 20%;
+}
+
+.tableWrapper tr {
+    display: flex;
+}
+
+.tableHeads {
+   border-bottom: 1px solid #CBEA7B;
+   display: flex;
+   justify-content: space-around;
+   width: 50vw;
+}
+
+.resultText {
+    width: 20VW;
+
+}
+.result {
+    display: flex;
+    width: 25vw;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #1A3129;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 20vh;
+}
+
+footer .menuPages{
+    width: 70vw;
+    margin-right: 10%;
+}
+
+
+.goToTopWrapper {
+    width: 20vw;
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+    align-items: center;
+    color: #FAFDF2;
+}
+
+.goToTopWrapper a {
+    border: 1px solid #FAFDF2;
+    border-radius: 30px;
+    width: 30%;
+    height: 50%;
+    font-size: 24px;
+    background-color: #1A3129;
+    color: #FAFDF2;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
